@@ -1,4 +1,17 @@
 /* styles.css */
+
+/* Common styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: gold;
+    text-align: center;
+    padding: 20px 0;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -28,4 +41,27 @@ nav ul li a:hover {
 
 nav ul li a:active {
     background-color: #3e8e41; /* Even darker green background */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Specific page styles */
+/* Styles for the About page */
+.about h2 {
+    color: blue;
+}
+
+/* Styles for the Thoughts page */
+.thoughts p {
+    font-style: italic;
+}
+
+/* Styles for the Contact page */
+.contact form {
+    margin-top: 20px;
 }
