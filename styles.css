@@ -125,30 +125,30 @@ nav ul li a.active {
 }
 
 /* About page styles */
-.about-section {
+.about {
     padding: 50px 0;
 }
 
-.about-section h1 {
+.about h1 {
     font-size: 36px;
     margin-bottom: 20px;
     color: #007bff; /* Blue heading color */
 }
 
-.about-section p {
+.about p {
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 15px;
 }
 
-.about-section .container {
+.about .container {
     background-color: #fff; /* White background */
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
     padding: 30px;
 }
 
-.about-section .container p:last-child {
+.about .container p:last-child {
     margin-bottom: 0; /* Remove margin for the last paragraph */
 }
 
