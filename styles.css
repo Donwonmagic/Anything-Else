@@ -124,7 +124,7 @@ nav ul li a.active {
     font-weight: bold;
 }
 
-/* About section styles */
+/* About page styles */
 .about-section {
     padding: 50px 0;
 }
@@ -132,10 +132,24 @@ nav ul li a.active {
 .about-section h1 {
     font-size: 36px;
     margin-bottom: 20px;
+    color: #007bff; /* Blue heading color */
 }
 
 .about-section p {
+    font-size: 18px;
+    line-height: 1.6;
     margin-bottom: 15px;
+}
+
+.about-section .container {
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 30px;
+}
+
+.about-section .container p:last-child {
+    margin-bottom: 0; /* Remove margin for the last paragraph */
 }
 
 /* Footer styles */
