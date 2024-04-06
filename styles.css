@@ -74,15 +74,80 @@ footer {
     line-height: 1.6; /* Improve readability with slightly larger line height */
 }
 
-/* Styles for the About page */
-.about {
-    padding: 50px 0;
-    text-align: center;
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.about h2 {
-    font-size: 30px; /* Larger font size for headings */
-    color: #17a2b8; /* Turquoise color for headings */
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+/* About section styles */
+.about-section {
+    padding: 50px 0;
+}
+
+.about-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    margin-bottom: 15px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
 }
 
 /* Styles for the Thoughts page */
