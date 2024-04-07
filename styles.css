@@ -100,26 +100,61 @@ footer {
     margin-bottom: 0; /* Remove margin for the last paragraph */
 }
 
-/* Footer styles */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-
-footer p {
-    margin: 0;
-}
-
-/* Styles for the Products page */
-.products {
+/* Contact page styles */
+.contact-section {
+    background-color: #f8f9fa; /* Light gray background */
     padding: 50px 0;
     text-align: center;
 }
 
-.products p {
-    font-style: italic;
-    color: #6c757d; /* Gray text color for thoughts */
+.contact-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #007bff; /* Blue heading color */
+}
+
+.contact-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.input-group textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
 }
 
