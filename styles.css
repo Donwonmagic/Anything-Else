@@ -112,13 +112,13 @@ footer p {
     margin: 0;
 }
 
-/* Styles for the Thoughts page */
-.thoughts {
+/* Styles for the Products page */
+.products {
     padding: 50px 0;
     text-align: center;
 }
 
-.thoughts p {
+.products p {
     font-style: italic;
     color: #6c757d; /* Gray text color for thoughts */
 }
