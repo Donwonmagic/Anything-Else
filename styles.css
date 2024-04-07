@@ -50,8 +50,12 @@ nav ul li a:active {
 
 /* Active link styles */
 nav ul li a.active {
-    font-weight: bold; /* For example, make the font bold */
-    /* Add any other styles you want for the active link */
+    font-weight: bold; /* Make the font bold */
+    background-color: #0056b3; /* Darker blue background */
+    color: #fff; /* White text color */
+    border-radius: 5px; /* Add border radius */
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow effect */
 }
 
 footer {
