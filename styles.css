@@ -52,7 +52,7 @@ nav ul li a:active {
 nav ul li a.selected {
     font-weight: bold; /* Make the font bold */
     background-color: #0056b3; /* Darker blue background */
-    color: #fff; /* New color added for active text */
+    color: #77202e; /* New color added for active text */
     border-radius: 5px; /* Add border radius */
     transition: all 0.3s ease; /* Smooth transition for all properties */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow effect */
@@ -162,7 +162,7 @@ nav ul li a.selected {
 }
 
 /* Button with .selected class */
-.btn.selected {
+.btn.active {
     color: #77202e; /* New text color when selected */
 }
 
