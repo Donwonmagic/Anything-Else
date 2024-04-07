@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - CatalysticAir Elegance</title>
-<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class=contact>
+<body class="contact">
     <header>
         <nav>
             <ul>
@@ -21,10 +21,16 @@
         <div class="container">
             <h1>Contact CatalysticAir Elegance</h1>
             <p>Have questions? We're here to help. Contact us using the form below or reach out to us via email or phone.</p>
-            <form action="#" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+            <form action="#" method="POST" class="contact-form">
+                <div class="input-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="input-group">
+                    <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                </div>
                 <button type="submit">Send Message</button>
             </form>
         </div>
