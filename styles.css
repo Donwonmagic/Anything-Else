@@ -48,6 +48,12 @@ nav ul li a:active {
     background-color: #004280; /* Even darker blue background when active */
 }
 
+/* Active link styles */
+nav ul li a.active {
+    font-weight: bold; /* For example, make the font bold */
+    /* Add any other styles you want for the active link */
+}
+
 footer {
     background-color: #343a40; /* Dark blue-gray background */
     color: #fff; /* White text color */
@@ -157,4 +163,3 @@ footer {
 .contact-form button:hover {
     background-color: #0056b3;
 }
-
