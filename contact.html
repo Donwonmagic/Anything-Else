@@ -8,20 +8,29 @@
 </head>
 <body>
     <header>
-        <h1>This would be my contact information</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="thoughts.html">Thoughts</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-
+    <section class="contact-section">
+        <div class="container">
+            <h1>Contact CatalysticAir Elegance</h1>
+            <p>Have questions? We're here to help. Contact us using the form below or reach out to us via email or phone.</p>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
     <footer>
-        <p>&copy; 2024 The Donald Co. All rights reserved.</p>
+        <p>&copy; 2024 CatalysticAir Elegance. All rights reserved.</p>
     </footer>
 </body>
 </html>
