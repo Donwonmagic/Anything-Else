@@ -49,10 +49,10 @@ nav ul li a:active {
 }
 
 /* Active link styles */
-nav ul li a.selected {
+nav ul li a.active {
     font-weight: bold; /* Make the font bold */
     background-color: #0056b3; /* Darker blue background */
-    color: #77202e; /* New color added for active text */
+    color: #4b6d41; /* New color added for active text */
     border-radius: 5px; /* Add border radius */
     transition: all 0.3s ease; /* Smooth transition for all properties */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow effect */
@@ -161,8 +161,57 @@ nav ul li a.selected {
     background-color: #0056b3;
 }
 
-/* Button with .selected class */
-.btn.active {
-    color: #77202e; /* New text color when selected */
+/* Products page styles */
+.products-section {
+    padding: 50px 0;
 }
 
+.products-section .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.product h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.product .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.product .btn:hover {
+    background-color: #0056b3;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
