@@ -14,7 +14,7 @@
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-               <li><a href="products.html">Products</a></li>
+                <li><a href="products.html">Products</a></li>
             </ul>
         </nav>
     </header>
@@ -49,15 +49,26 @@
             <a href="contact.html" class="btn">Contact Us</a>
         </div>
     </section>
-        
-            <!-- Add more testimonials as needed -->
-        </div>
-    </section>
     <footer>
         <div class="container">
             <p>&copy; 2024 CatalysticAir Elegance. All rights reserved.</p>
         </div>
     </footer>
+    <script>
+        // JavaScript to add active class to clicked section
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('nav ul li a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(event) {
+                    // Remove 'active' class from all links
+                    navLinks.forEach(navLink => {
+                        navLink.classList.remove('active');
+                    });
+                    // Add 'active' class to the clicked link
+                    this.classList.add('active');
+                });
+            });
+        });
+    </script>
 </body>
 </html>
-
