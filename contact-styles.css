@@ -1,29 +1,29 @@
 /* Contact page styles */
 
-.contact-section {
+.contact {
     padding: 50px 0;
     text-align: center;
 }
 
-.contact-section h1 {
+.contact h1 {
     font-size: 36px;
     margin-bottom: 20px;
     color: #007bff; /* Blue heading color */
 }
 
-.contact-section p {
+.contact p {
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 30px;
 }
 
-.contact-section form {
+.contact form {
     max-width: 600px;
     margin: 0 auto;
 }
 
-.contact-section form input,
-.contact-section form textarea {
+.contact form input,
+.contact form textarea {
     width: 100%;
     padding: 15px;
     margin-bottom: 30px;
@@ -32,12 +32,12 @@
     font-size: 18px;
 }
 
-.contact-section form input::placeholder,
-.contact-section form textarea::placeholder {
+.contact form input::placeholder,
+.contact form textarea::placeholder {
     color: #999; /* Placeholder text color */
 }
 
-.contact-section form button {
+.contact form button {
     display: block;
     width: 100%;
     padding: 15px;
@@ -50,22 +50,22 @@
     transition: background-color 0.3s;
 }
 
-.contact-section form button:hover {
+.contact form button:hover {
     background-color: #0056b3;
 }
 
 /* Form animation */
-.contact-section form input,
-.contact-section form textarea,
-.contact-section form button {
+.contact form input,
+.contact form textarea,
+.contact form button {
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-.contact-section form.show-form input,
-.contact-section form.show-form textarea,
-.contact-section form.show-form button {
+.contact form.show-form input,
+.contact form.show-form textarea,
+.contact form.show-form button {
     opacity: 1;
     transform: translateY(0);
 }
