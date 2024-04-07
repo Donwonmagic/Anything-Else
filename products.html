@@ -13,7 +13,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="products.html">Products</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
             </ul>
         </nav>
     </header>
@@ -40,18 +40,22 @@
             <p>&copy; 2024 CatalysticAir Elegance. All rights reserved.</p>
         </div>
     </footer>
-<script>
+    <script>
         // JavaScript to add selected class to clicked section
         document.addEventListener('DOMContentLoaded', function() {
-            const navLinks = document.querySelectorAll('.nav-link');
+            const navLinks = document.querySelectorAll('nav ul li a');
             navLinks.forEach(link => {
                 link.addEventListener('click', function(event) {
-                    const selectedSectionId = this.getAttribute('href').substring(1);
-                    const selectedSection = document.getElementById(selectedSectionId);
-                    selectedSection.classList.add('selected');
+                    // Remove 'selected' class from all links
+                    navLinks.forEach(navLink => {
+                        navLink.classList.remove('selected');
+                    });
+                    // Add 'selected' class to the clicked link
+                    this.classList.add('selected');
                 });
             });
         });
     </script>
 </body>
 </html>
+
