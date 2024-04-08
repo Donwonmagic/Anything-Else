@@ -49,6 +49,8 @@ nav ul li a:hover {
 /* Styles for the hero section */
 /* Additional styles for the customer-facing website */
 
+/* Additional styles for the customer-facing website */
+
 /* Styles for the hero section */
 .hero-section {
     background-color: #f0f0f0; /* Light gray background */
@@ -67,6 +69,30 @@ nav ul li a:hover {
     font-size: 24px;
     color: #555; /* Slightly darker text color */
     margin-bottom: 40px;
+    position: relative; /* Added position relative for absolute positioning of accent elements */
+}
+
+/* Visual accent elements */
+.accent-1,
+.accent-2 {
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #33eebc; /* Accent color */
+    border-radius: 50%;
+}
+
+.accent-1 {
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+
+.accent-2 {
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
 }
 
 /* Button styles */
@@ -85,7 +111,6 @@ nav ul li a:hover {
 .btn:hover {
     background-color: #0056b3; /* Darker blue background on hover */
 }
-
 
 /* Additional styles for the customer-facing website */
 .features-hidden {
