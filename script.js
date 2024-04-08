@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const featuresSection = document.getElementById('features');
 
     discoverMoreBtn.addEventListener('click', function() {
-        featuresSection.style.display = 'block';
+        featuresSection.classList.remove('features-hidden'); // Show the features section
         this.style.display = 'none'; // Hide the "Discover More" button after clicking
     });
 });
