@@ -19,7 +19,7 @@
     </header>
     <section class="hero-section">
         <div class="container">
-            <h1 class="hero-heading">Elevate Your Space with <br> <span class="accent-color">CatalysticAir Elegance</span></h1>
+            <h1 class="hero-heading">Elevate Your Space with <br> CatalysticAir Elegance</h1>
             <p class="hero-text">Discover the perfect fusion of style and functionality with our premium air purification solutions.</p>
             <a href="lampe-berger.html" class="btn" id="discover-more">Discover More</a>
         </div>
@@ -32,3 +32,269 @@
     <script src="script.js"></script> <!-- JavaScript file for dynamic functionality -->
 </body>
 </html>
+and my styles.css is /* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark gray text color */
+}
+
+header {
+    background-color: #2b2e43; /* Peacoat Background */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff; /* White text color */
+    background-color: #007bff; /* Blue background */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+}
+
+nav ul li a:active {
+    background-color: #004280; /* Even darker blue background when active */
+}
+
+/* Active link styles */
+nav ul li a.selected {
+    font-weight: bold; /* Make the font bold */
+    background-color: #0056b3; /* Darker blue background */
+    color: #77202e; /* New color added for active text */
+    border-radius: 5px; /* Add border radius */
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+}
+
+/* Specific page styles */
+/* Styles for the Index (Home) page */
+.index {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.index h1 {
+    font-size: 36px; /* Larger font size for headings */
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.index p {
+    font-size: 18px; /* Medium font size for paragraphs */
+    line-height: 1.6; /* Improve readability with slightly larger line height */
+}
+
+.accent-color {
+    color: #6c5ce7; /* Purple accent color */
+}
+
+
+/* About page styles */
+.about {
+    padding: 50px 0;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #2b2e43; /* Dark blue heading color */
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #333; /* Dark gray text color */
+}
+
+.about .container {
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 30px;
+}
+
+.about .container p:last-child {
+    margin-bottom: 0; /* Remove margin for the last paragraph */
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+}
+
+/* Contact page styles */
+.contact-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #007bff; /* Blue heading color */
+}
+
+.contact-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.input-group textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Form animation */
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    opacity: 1;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.contact-form.show-form input,
+.contact-form.show-form textarea,
+.contact-form.show-form button {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Additional styles for customer-facing website */
+
+/* Styles for the about section */
+.about-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-section .title {
+    font-size: 48px;
+    color: #333; /* Dark text color */
+    margin-bottom: 20px;
+}
+
+.about-section .subtitle {
+    font-size: 24px;
+    color: #555; /* Slightly darker text color */
+    margin-bottom: 40px;
+}
+
+.about-section .description {
+    font-size: 18px;
+    color: #777; /* Lighter text color */
+    line-height: 1.6;
+}
+
+.about-section .section-title {
+    font-size: 36px;
+    color: #333; /* Dark text color */
+    margin-bottom: 20px;
+}
+
+.about-section .highlighted-text {
+    font-size: 20px;
+    color: #007bff; /* Blue text color */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about-section .content {
+    font-size: 18px;
+    color: #444; /* Darker text color */
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #1a1a1a; /* Dark background */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 16px;
+} and my script.js is document.addEventListener('DOMContentLoaded', function() {
+    const discoverMoreBtn = document.getElementById('discover-more');
+    const featuresSection = document.getElementById('features');
+
+    discoverMoreBtn.addEventListener('click', function() {
+        featuresSection.classList.remove('features-hidden'); // Show the features section
+        this.style.display = 'none'; // Hide the "Discover More" button after clicking
+    });
+});
