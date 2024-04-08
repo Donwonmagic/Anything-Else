@@ -100,9 +100,11 @@ nav ul li a.selected {
     color: #6c5ce7; /* Purple accent color */
 }
 
-/* About page styles */
+
+/* About section styles */
 .about-section {
     padding: 50px 0;
+    text-align: center;
 }
 
 .about-section .container {
@@ -113,7 +115,6 @@ nav ul li a.selected {
 .about-section h1 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #2b2e43; /* Dark blue heading color */
 }
 
 .about-section p {
