@@ -75,6 +75,11 @@ nav ul li a.selected {
     line-height: 1.6; /* Improve readability with slightly larger line height */
 }
 
+.accent-color {
+    color: #6c5ce7; /* Purple accent color */
+}
+
+
 /* About page styles */
 .about {
     padding: 50px 0;
