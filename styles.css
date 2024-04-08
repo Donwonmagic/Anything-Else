@@ -101,33 +101,36 @@ nav ul li a.selected {
 }
 
 /* About page styles */
-.about {
+.about-section {
     padding: 50px 0;
-    background-color: #f8f9fa; /* Light gray background */
 }
 
-.about h2 {
+.about-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-section h1 {
     font-size: 36px;
     margin-bottom: 20px;
     color: #2b2e43; /* Dark blue heading color */
 }
 
-.about p {
+.about-section p {
     font-size: 18px;
     line-height: 1.6;
-    margin-bottom: 15px;
-    color: #333; /* Dark gray text color */
+    margin-bottom: 20px;
 }
 
-.about .container {
-    background-color: #fff; /* White background */
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
-    padding: 30px;
+/* Footer styles */
+footer {
+    background-color: #1a1a1a; /* Dark background */
+    color: #fff; /* White text color */
+    padding: 20px 0;
 }
 
-.about .container p:last-child {
-    margin-bottom: 0; /* Remove margin for the last paragraph */
+footer p {
+    font-size: 16px;
 }
 
 /* Button Styles */
