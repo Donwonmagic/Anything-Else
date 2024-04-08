@@ -47,24 +47,45 @@ nav ul li a:hover {
 }
 
 /* Styles for the hero section */
+/* Additional styles for the customer-facing website */
+
+/* Styles for the hero section */
 .hero-section {
-    background-image: url('path/to/hero-image.jpg'); /* Replace 'path/to/hero-image.jpg' with the actual path to your hero image */
-    background-size: cover;
-    background-position: center;
-    color: #fff; /* White text color */
-    text-align: center;
+    background-color: #f0f0f0; /* Light gray background */
     padding: 100px 0; /* Adjust as needed */
+    text-align: center;
 }
 
-.hero-section h1 {
+.hero-heading {
     font-size: 48px;
+    font-weight: bold;
+    color: #333; /* Dark text color */
     margin-bottom: 20px;
 }
 
-.hero-section p {
+.hero-text {
     font-size: 24px;
+    color: #555; /* Slightly darker text color */
     margin-bottom: 40px;
 }
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #007bff; /* Blue background */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+}
+
 
 /* Additional styles for the customer-facing website */
 .features-hidden {
