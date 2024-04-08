@@ -60,17 +60,17 @@ nav ul li a.selected {
 
 /* Specific page styles */
 /* Styles for the Index (Home) page */
-.home {
+.index {
     text-align: center;
     padding: 50px 0;
 }
 
-.home h1 {
+.index h1 {
     font-size: 36px; /* Larger font size for headings */
     margin-bottom: 20px; /* Add some space below the heading */
 }
 
-.home p {
+.index p {
     font-size: 18px; /* Medium font size for paragraphs */
     line-height: 1.6; /* Improve readability with slightly larger line height */
 }
