@@ -78,18 +78,20 @@ nav ul li a.selected {
 /* About page styles */
 .about {
     padding: 50px 0;
+    background-color: #f8f9fa; /* Light gray background */
 }
 
-.about h1 {
+.about h2 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #007bff; /* Blue heading color */
+    color: #2b2e43; /* Dark blue heading color */
 }
 
 .about p {
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 15px;
+    color: #333; /* Dark gray text color */
 }
 
 .about .container {
@@ -101,6 +103,23 @@ nav ul li a.selected {
 
 .about .container p:last-child {
     margin-bottom: 0; /* Remove margin for the last paragraph */
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
 }
 
 /* Contact page styles */
