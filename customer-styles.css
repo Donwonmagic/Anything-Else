@@ -1,3 +1,19 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark gray text color */
+}
+
+/* Common styles continued... */
+
 /* Additional styles for the customer-facing website */
 
 /* Styles for the header */
@@ -77,3 +93,4 @@ nav ul li a:hover {
 }
 
 /* Additional styles can be added for other sections as needed */
+
