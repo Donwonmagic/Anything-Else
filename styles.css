@@ -198,43 +198,43 @@ nav ul li a.selected {
 /* Additional styles for customer-facing website */
 
 /* Styles for the about section */
-.about-section .container {
+.lampe-berger .container {
     max-width: 800px;
     margin: 0 auto;
 }
 
-.about-section .title {
+.lampe-berger .title {
     font-size: 48px;
     color: #333; /* Dark text color */
     margin-bottom: 20px;
 }
 
-.about-section .subtitle {
+.lampe-berger .subtitle {
     font-size: 24px;
     color: #555; /* Slightly darker text color */
     margin-bottom: 40px;
 }
 
-.about-section .description {
+.lampe-berger .description {
     font-size: 18px;
     color: #777; /* Lighter text color */
     line-height: 1.6;
 }
 
-.about-section .section-title {
+.lampe-berger .section-title {
     font-size: 36px;
     color: #333; /* Dark text color */
     margin-bottom: 20px;
 }
 
-.about-section .highlighted-text {
+.lampe-berger .highlighted-text {
     font-size: 20px;
     color: #007bff; /* Blue text color */
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.about-section .content {
+.lampe-berger .content {
     font-size: 18px;
     color: #444; /* Darker text color */
     line-height: 1.6;
