@@ -68,46 +68,6 @@ nav ul li a:hover {
 
 /* Additional styles for the customer-facing website */
 
-/* Styles for the "Discover More" button */
-.btn {
-    display: inline-block;
-    padding: 15px 30px; /* Increase padding for larger size */
-    text-decoration: none;
-    color: #fff; /* White text color */
-    background: linear-gradient(135deg, #007bff, #0056b3); /* Gradient background */
-    border: 2px solid #007bff; /* Add border */
-    border-radius: 8px; /* Add border radius */
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s, transform 0.2s;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow effect */
-}
-
-.btn:hover {
-    background: linear-gradient(135deg, #0056b3, #004280); /* Gradient background on hover */
-    border-color: #0056b3; /* Darker border color on hover */
-    color: #fff; /* Change text color on hover */
-    transform: translateY(-2px); /* Add slight vertical movement on hover */
-}
-
-.btn::before {
-    content: ''; /* Create pseudo-element for animation */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent overlay */
-    z-index: 1;
-    border-radius: 8px; /* Match button border radius */
-    transition: opacity 0.3s, transform 0.3s;
-    opacity: 0; /* Initially invisible */
-}
-
-.btn:hover::before {
-    opacity: 1; /* Show overlay on hover */
-    transform: scale(1.2); /* Scale overlay on hover */
-}
-
-
 /* Styles for the features section */
 .features-section {
     background-color: #f8f9fa; /* Light gray background */
