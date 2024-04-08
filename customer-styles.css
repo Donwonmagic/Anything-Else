@@ -67,6 +67,9 @@ nav ul li a:hover {
 }
 
 /* Additional styles for the customer-facing website */
+.features-hidden {
+    display: none; /* Hide the features section initially */
+}
 
 /* Styles for the features section */
 .features-section {
