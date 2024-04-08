@@ -12,10 +12,6 @@ body {
     color: #333; /* Dark gray text color */
 }
 
-/* Common styles continued... */
-
-/* Additional styles for the customer-facing website */
-
 /* Styles for the header */
 header {
     padding: 20px;
@@ -45,11 +41,6 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #0056b3; /* Darker blue background on hover */
 }
-
-/* Styles for the hero section */
-/* Additional styles for the customer-facing website */
-
-/* Additional styles for the customer-facing website */
 
 /* Styles for the hero section */
 .hero-section {
