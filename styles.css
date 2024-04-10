@@ -18,7 +18,36 @@ header {
     padding: 20px 0;
     border-bottom: 2px solid #fff; /* Add a border to create depth */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    text-align: center; /* Align text to the center for a clean look */
 }
+
+header h1 {
+    font-size: 32px; /* Increase font size for a bold statement */
+    font-weight: bold; /* Emphasize the header text */
+    text-transform: uppercase; /* Convert text to uppercase for added emphasis */
+    letter-spacing: 2px; /* Add letter spacing for a refined look */
+}
+
+header nav ul {
+    list-style-type: none; /* Remove bullet points from the list */
+}
+
+header nav ul li {
+    display: inline-block; /* Display navigation items horizontally */
+    margin-right: 20px; /* Add space between navigation items */
+}
+
+header nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text color */
+    font-weight: bold; /* Emphasize the navigation text */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+header nav ul li a:hover {
+    color: #ffd700; /* Change text color on hover to a gold color */
+}
+
 
 nav ul {
     list-style-type: none;
