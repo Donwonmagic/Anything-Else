@@ -13,9 +13,11 @@ body {
 }
 
 header {
-    background-color: #2b2e43; /* Peacoat Background */
-    color: #fff; /* White text color */
+    background-color: #1a1b29; /* Deep, refined background color */
+    color: #fff; /* White text color for contrast */
     padding: 20px 0;
+    border-bottom: 2px solid #fff; /* Add a border to create depth */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
 }
 
 nav ul {
