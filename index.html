@@ -5,23 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Premium Air Solutions</title>
     <style>
-        /* Styles for the Index (Home) page */
+        /* Styles for the Landing Page */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0; /* Remove default margin */
-            overflow-x: hidden; /* Hide horizontal scrollbar */
+            margin: 0;
+            overflow-x: hidden;
+            background-color: #f8f9fa; /* Light gray background */
+            color: #333; /* Dark gray text color */
         }
 
         .hero-section {
-            position: absolute; /* Position absolute */
-            top: 50%; /* Center vertically */
-            left: 50%; /* Center horizontally */
-            transform: translate(-50%, -50%); /* Center the container */
-            z-index: 1000; /* Set a high z-index to appear above the background */
-            padding: 80px; /* Adjust padding */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1000;
+            padding: 80px;
             text-align: center;
             color: #fff; /* White text color */
-            background-color: transparent; /* Transparent background */
+            background-color: transparent;
             border: 3px solid #fff; /* Solid white border */
             border-radius: 20px; /* Rounded corners */
             box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); /* Shadow effect */
@@ -33,13 +35,8 @@
         .hero-heading {
             font-size: 36px;
             margin-bottom: 20px;
-        }
-
-        .hero-heading .accent-color {
-            color: #fff; /* White text color */
             text-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 40px rgba(108, 92, 231, 0.8); /* Embossed effect */
         }
-
 
         .hero-text {
             font-size: 18px;
@@ -48,24 +45,24 @@
 
         .btn {
             display: inline-block;
-            padding: 15px 30px;
-            background-color: rgba(108, 92, 231, 0.8); /* Purple background with transparency */
-            color: #fff; /* White text color */
-            border: 2px solid #fff; /* White border */
+            padding: 20px 40px;
+            background-color: rgba(108, 92, 231, 0.8);
+            color: #fff;
+            border: 2px solid #fff;
             border-radius: 5px;
-            font-size: 18px;
+            font-size: 24px;
             text-decoration: none;
-            transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transitions */
-            box-shadow: 0 0 20px rgba(108, 92, 231, 0.8); /* Shadow effect */
+            transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+            box-shadow: 0 0 20px rgba(108, 92, 231, 0.8);
         }
 
         .btn:hover {
-            background-color: rgba(108, 92, 231, 1); /* Darker purple background on hover */
-            border-color: rgba(255, 255, 255, 0.8); /* Lighter border color on hover */
+            background-color: rgba(108, 92, 231, 1);
+            border-color: rgba(255, 255, 255, 0.8);
         }
 
         .accent-color {
-            color: #6c5ce7; /* Purple accent color */
+            color: #6c5ce7;
         }
 
         /* CSS animation for background color change */
@@ -77,7 +74,7 @@
 
         /* Apply the animation to the body */
         body {
-            animation: changeBackgroundColor 10s infinite; /* Run animation infinitely */
+            animation: changeBackgroundColor 10s infinite;
         }
     </style>
 </head>
@@ -86,11 +83,8 @@
         <div class="container">
             <h1 class="hero-heading">Elevate Your Space with <br> <span class="accent-color">Air Clarity</span></h1>
             <p class="hero-text">Discover the perfect fusion of style and functionality with our premium air purification solutions.</p>
-            <a href="lampe-berger.html" class="btn" id="discover-more">Discover More</a>
+            <a href="landing.html" class="btn">Enter</a>
         </div>
     </section>
-    <script src="script.js"></script> <!-- JavaScript file for dynamic functionality -->
 </body>
 </html>
-
-
