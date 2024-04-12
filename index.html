@@ -51,18 +51,18 @@
             padding: 15px 30px;
             background-color: rgba(108, 92, 231, 0.8); /* Purple background with transparency */
             color: #fff; /* White text color */
-            border: none;
+            border: 2px solid #fff; /* White border */
             border-radius: 5px;
             font-size: 18px;
             text-decoration: none;
-            transition: background-color 0.3s;
+            transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transitions */
             box-shadow: 0 0 20px rgba(108, 92, 231, 0.8); /* Shadow effect */
         }
 
         .btn:hover {
-             background-color: rgba(108, 92, 231, 1); /* Darker purple background on hover */
+            background-color: rgba(108, 92, 231, 1); /* Darker purple background on hover */
+            border-color: rgba(255, 255, 255, 0.8); /* Lighter border color on hover */
         }
-
 
         .accent-color {
             color: #6c5ce7; /* Purple accent color */
