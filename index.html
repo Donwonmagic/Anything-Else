@@ -10,9 +10,15 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #f8f9fa; /* Light gray background */
             color: #333; /* Dark gray text color */
+            margin: 0; /* Remove default margin */
         }
 
         .hero-section {
+            position: fixed; /* Position fixed */
+            top: 50%; /* Center vertically */
+            left: 50%; /* Center horizontally */
+            transform: translate(-50%, -50%); /* Center the container */
+            z-index: 1000; /* Set a high z-index to appear above other content */
             padding: 100px 0;
             text-align: center;
             color: #333; /* Dark gray text color */
@@ -51,6 +57,10 @@
         .btn:hover {
             background-color: #0056b3; /* Darker blue background on hover */
         }
+
+        .accent-color {
+            color: #6c5ce7; /* Purple accent color */
+        }
         
     </style>
 </head>
@@ -62,6 +72,9 @@
             <a href="lampe-berger.html" class="btn" id="discover-more">Discover More</a>
         </div>
     </section>
+    <div style="height: 2000px;"> <!-- Placeholder content to allow scrolling -->
+        Scroll down...
+    </div>
     <script src="script.js"></script> <!-- JavaScript file for dynamic functionality -->
 </body>
 </html>
