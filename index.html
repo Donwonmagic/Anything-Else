@@ -8,25 +8,25 @@
         /* Styles for the Index (Home) page */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f8f9fa; /* Light gray background */
-            color: #333; /* Dark gray text color */
             margin: 0; /* Remove default margin */
+            overflow-x: hidden; /* Hide horizontal scrollbar */
         }
 
         .hero-section {
-            position: fixed; /* Position fixed */
+            position: absolute; /* Position absolute */
             top: 50%; /* Center vertically */
             left: 50%; /* Center horizontally */
             transform: translate(-50%, -50%); /* Center the container */
-            z-index: 1000; /* Set a high z-index to appear above other content */
+            z-index: 1000; /* Set a high z-index to appear above the background */
             padding: 80px; /* Adjust padding */
             text-align: center;
             color: #fff; /* White text color */
-            background-color: #6c5ce7; /* Purple background */
+            background-color: rgba(108, 92, 231, 0.8); /* Semi-transparent purple background */
             border-radius: 20px; /* Rounded corners */
             box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); /* Shadow effect */
             max-width: 80%; /* Limit maximum width */
             width: 500px; /* Set a fixed width */
+            transition: background-color 0.5s; /* Smooth transition for background color change */
         }
 
         .hero-heading {
@@ -62,6 +62,18 @@
         .accent-color {
             color: #6c5ce7; /* Purple accent color */
         }
+
+        /* CSS animation for background color change */
+        @keyframes changeBackgroundColor {
+            0% { background-color: rgba(108, 92, 231, 0.8); } /* Initial color */
+            50% { background-color: rgba(255, 0, 0, 0.8); } /* Transition color */
+            100% { background-color: rgba(108, 92, 231, 0.8); } /* Back to initial color */
+        }
+
+        /* Apply the animation to the body */
+        body {
+            animation: changeBackgroundColor 10s infinite; /* Run animation infinitely */
+        }
         
     </style>
 </head>
@@ -79,3 +91,4 @@
     <script src="script.js"></script> <!-- JavaScript file for dynamic functionality -->
 </body>
 </html>
+
